@@ -1,1 +1,3 @@
-# Spring-Application-Context-XML-Groovy
+Примеры файлов:
+с правильными ответами (Answer.txt) 
+с ответами студента (Student.txt)
