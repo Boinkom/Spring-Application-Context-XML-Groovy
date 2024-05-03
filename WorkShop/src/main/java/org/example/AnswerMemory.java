@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class AnswerMemory implements ExtractFromCSV{
     @Override
     public HashMap<String,String> csvToStringGut() {
-        String filePath = "D:\\course\\25\\Answer.txt";
+        String filePath = "Answer.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             HashMap<String,String> answer = new HashMap();
@@ -32,7 +32,7 @@ public class AnswerMemory implements ExtractFromCSV{
 
     @Override
     public HashMap<String, String> csvToStringStudent() {
-        String filePath = "D:\\course\\25\\Student.txt";
+        String filePath = "Student.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             HashMap<String,String> answer = new HashMap();
